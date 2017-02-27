@@ -4,7 +4,7 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "Mediator"
+title: "Hello Hamza"
 description: > # this means to ignore newlines until "email:"
    A Jekyll theme - Medium inspired
 
@@ -18,7 +18,7 @@ cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
 
 name: 'Dirk Fabisch'
 author: 'Dirk Fabisch'
-author_image: "/assets/images/author.jpg"
+author_image: "https://media.licdn.com/media/AAEAAQAAAAAAAA2yAAAAJGUxMGEzYmFiLWZlNjItNGU3Ni1hYjg4LTExOTVmMGZhZGI4OA.jpg"
 
 paginate:	5
 
