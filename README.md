@@ -1,3 +1,7 @@
+personal Blok Forked From Mediator 
+========
+
+this is my personal blog/website , i used the mediator template as a base , it used jekyll as a static CMS , hope you like it.
 mediator
 ========
 
