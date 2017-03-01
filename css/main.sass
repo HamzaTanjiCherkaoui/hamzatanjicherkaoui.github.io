@@ -38,6 +38,8 @@ body
   -webkit-font-feature-settings: "liga", "dlig"
   -o-font-feature-settings: "liga", "dlig"
   font-feature-settings: "liga", "dlig"
+  color: #3a4250
+  background: #f1f4f5
 
 .logo-readium
   position: fixed
@@ -130,13 +132,18 @@ body
 
 .content
   width: 100%
-  max-width: 640px
+  max-width: 800px
+  background: #fff
+  padding: 30px 0 65px
+  border-radius: 3px
   margin: 0 auto
+  margin-top: 50px
   @include box-sizing(border-box)
   @include respond-to(800)
     padding: 0 $rs*2
   article
-    padding: 40px 0
+    padding: 0 64px 64px 64px
+    margin-top : 20px
     border-bottom: 1px solid #f2f2f0
     &:last-child
       border-bottom: 0px
@@ -150,7 +157,7 @@ body
       margin: 0 0
       a
         text-decoration: none
-        color: #333332
+        color: #213D40
         &:hover
           text-decoration: none
     .post-excerpt
@@ -162,15 +169,15 @@ body
       color: #666665
     .post-meta
       font-size: 14px
-      color: #b3b3b1
+      color: #959595
       line-height: 30px
       a
         color: #b3b3b1
         text-decoration: none
         &:hover
           text-decoration: underline
-.container.featured
-  padding-bottom: 40px
+.container.featured 
+  padding-bottom: 0
 
 .post-template .content
   max-width: 700px
@@ -193,6 +200,7 @@ body
   text-align: center
   padding: $rs*3 0 0
   font-size: $rs/4*3
+  width: 800px
   a
     color: #999
     text-decoration: none
@@ -232,6 +240,8 @@ body
     &:hover
       color: #333
 .post
+  padding: 0 64px 64px 64px
+  padding-bottom: 0
   .article-image
     position: absolute
     background-color: #000
@@ -418,10 +428,14 @@ body
       border: 0px solid #ddd
       border-top: 1px solid #ddd
     blockquote
-      margin: 0 0 30px
-      margin-left: -26px
-      border-left: 3px solid #57ad68
-      padding-left: 20px
+      background: #e3ffed
+      padding: 32px 64px 32px 64px
+      margin: 40px 0
+      border-left: 4px solid #53b58c
+      position: relative
+      margin-left: -64px
+      margin-right: -64px
+      text-align: left
       p
         letter-spacing: 0.01rem
         font-weight: 400
@@ -619,3 +633,259 @@ pre
     border: 0
     padding-right: 0
     padding-left: 0
+
+  @font-face
+  font-family: 'Open Sans Condensed script=all rev=1'
+  font-style: normal
+  font-weight: 700
+  src: url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xBrT1lp9IdZ6Q20XTtjH6Zv3rGVtsTkPsbDajuO5ueQw.woff2) format("woff2")
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F
+
+
+
+@font-face
+  font-family: 'Open Sans Condensed script=all rev=1'
+  font-style: normal
+  font-weight: 700
+  src: url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xIS898UBCVj0FEntoasBk6P3rGVtsTkPsbDajuO5ueQw.woff2) format("woff2")
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+
+// custom css 
+@font-face
+  font-family: 'Open Sans Condensed script=all rev=1'
+  font-style: normal
+  font-weight: 700
+  src: url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xBrT1lp9IdZ6Q20XTtjH6Zv3rGVtsTkPsbDajuO5ueQw.woff2) format("woff2")
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F
+
+
+
+
+@font-face
+  font-family: 'Open Sans Condensed script=all rev=1'
+  font-style: normal
+  font-weight: 700
+  src: url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xIS898UBCVj0FEntoasBk6P3rGVtsTkPsbDajuO5ueQw.woff2) format("woff2")
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+
+
+
+
+@font-face
+  font-family: 'Open Sans Condensed script=all rev=1'
+  font-style: normal
+  font-weight: 700
+  src: url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xBkraXwpsr1uSZUhAAol_4_3rGVtsTkPsbDajuO5ueQw.woff2) format("woff2")
+  unicode-range: U+1F00-1FFF
+
+
+
+
+@font-face
+  font-family: 'Open Sans Condensed script=all rev=1'
+  font-style: normal
+  font-weight: 700
+  src: url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xKTAHfCyYjmaKhz-jw4dXo73rGVtsTkPsbDajuO5ueQw.woff2) format("woff2")
+  unicode-range: U+0370-03FF
+
+
+
+
+@font-face
+  font-family: 'Open Sans Condensed script=all rev=1'
+  font-style: normal
+  font-weight: 700
+  src: url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xP1CsDU87ma3di2VmaZcPSr3rGVtsTkPsbDajuO5ueQw.woff2) format("woff2")
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB
+
+
+
+
+@font-face
+  font-family: 'Open Sans Condensed script=all rev=1'
+  font-style: normal
+  font-weight: 700
+  src: url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xBztfhWvsElVqpbWxzFHK633rGVtsTkPsbDajuO5ueQw.woff2) format("woff2")
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+
+
+
+
+@font-face
+  font-family: 'Open Sans Condensed script=all rev=1'
+  font-style: normal
+  font-weight: 700
+  src: url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xIF8zhZCJ7x9Pr62cRgaVUA.woff2) format("woff2")
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+
+
+
+@font-face
+  font-family: 'Open Sans Condensed script=all rev=2'
+  font-style: normal
+  font-weight: 300
+  src: url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xJwNa6kgmw9HIHjUBPkzL2f3rGVtsTkPsbDajuO5ueQw.woff2) format("woff2")
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F
+
+
+
+
+@font-face
+  font-family: 'Open Sans Condensed script=all rev=2'
+  font-style: normal
+  font-weight: 300
+  src: url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xKdGPpWTn2kPFru4k7T0T-v3rGVtsTkPsbDajuO5ueQw.woff2) format("woff2")
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+
+
+
+
+@font-face
+  font-family: 'Open Sans Condensed script=all rev=2'
+  font-style: normal
+  font-weight: 300
+  src: url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xN9i7v7U2vZkHC55NWxtqfn3rGVtsTkPsbDajuO5ueQw.woff2) format("woff2")
+  unicode-range: U+1F00-1FFF
+
+
+
+
+@font-face
+  font-family: 'Open Sans Condensed script=all rev=2'
+  font-style: normal
+  font-weight: 300
+  src: url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xK1ueDcgZDcfV3TWANvdPLj3rGVtsTkPsbDajuO5ueQw.woff2) format("woff2")
+  unicode-range: U+0370-03FF
+
+
+
+
+@font-face
+  font-family: 'Open Sans Condensed script=all rev=2'
+  font-style: normal
+  font-weight: 300
+  src: url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xC3qj1XlvLGj0jktnJzWu233rGVtsTkPsbDajuO5ueQw.woff2) format("woff2")
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB
+
+
+
+
+@font-face
+  font-family: 'Open Sans Condensed script=all rev=2'
+  font-style: normal
+  font-weight: 300
+  src: url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xC8hAQ4ocbp44gFQt8tMfcH3rGVtsTkPsbDajuO5ueQw.woff2) format("woff2")
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+
+
+
+
+@font-face
+  font-family: 'Open Sans Condensed script=all rev=2'
+  font-style: normal
+  font-weight: 300
+  src: url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xBEur64QvLD-0IbiAdTUNXE.woff2) format("woff2")
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+
+.header
+  background-image: linear-gradient(to bottom right,#458287,#309C87)
+  padding-top : 50px
+  padding-bottom : 50px
+
+.search
+  width : 800px
+  height: 40px
+  margin-left : -16px
+  margin-bottom : 10px
+  border-radius : 3px !important
+  border : none
+  padding : 10px
+
+.bio
+  height : 100%
+  margin-top : 25px
+  color : #fff
+  text-align: justify
+  font-family: 'Open Sans Condensed script=all rev=2'
+  font-style: normal
+  font-weight: 300
+  line-height : 30px
+  letter-spacing : 1.2px
+  font-size : 18px
+
+.thumbnail-overlay
+  background-image: linear-gradient(to bottom right, #45E287, #309C87)
+  width: 95%
+  left: 5px
+  top: -5%
+  height: 110%
+  display: block
+  position: absolute
+  border-radius: 50%
+  opacity: 0.7
+
+.img-cstm
+  height: 200px !important
+
+
+.container
+
+  width : 800px
+
+\::selection
+  color: #15403A
+  background: #B3F0DB
+
+.social
+  width: 500px
+  margin: 0 auto
+  list-style: none
+  padding: 0
+  li
+    float: left
+    width: 14.28%
+    a
+      color: #213D40
+      font-size: 40px
+      text-align: center
+
+
+.menu
+  background-image: linear-gradient(to bottom right, rgb(69, 69, 69), #213d40)
+
+.navigation
+  margin: 0 auto
+  overflow: hidden
+  max-width: 788px
+  height: 80px
+
+ul.navigation
+  list-style: none
+  margin-bottom: 0
+  li
+    float: left
+    width: 25%
+    a
+      color: #fff
+      text-decoration: none
+      font-family: 'Open Sans Condensed script=all rev=2'
+      font-style: normal
+      font-weight: 300
+      letter-spacing: 3px
+      display: block
+      padding: 30px 30px
+      font-size: 13px
+      text-transform: uppercase
+      text-align: center
+
+html, body, button, input, select, textarea
+  font-weight: 400
+  font-size: 16px 
+  line-height: 1.5
+  color: #3a4250
+  letter-spacing: 0.5px
+  -webkit-font-smoothing: antialiased
+
+p
+  margin-top: 24px
+  margin-bottom: 24px
