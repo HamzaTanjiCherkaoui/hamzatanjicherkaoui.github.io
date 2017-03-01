@@ -16,8 +16,8 @@ float_logo: true # true, false (default)
 # blog cover
 cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
 
-name: 'Dirk Fabisch'
-author: 'Dirk Fabisch'
+name: 'Hamza Tanji Cherkaoui'
+author: 'Hamza Tanji Cherkaoui'
 author_image: "https://media.licdn.com/media/AAEAAQAAAAAAAA2yAAAAJGUxMGEzYmFiLWZlNjItNGU3Ni1hYjg4LTExOTVmMGZhZGI4OA.jpg"
 
 paginate:	5
@@ -25,7 +25,7 @@ paginate:	5
 url: "http://myblog.***.***" # the base hostname & protocol for your site
 baseurl: ""
 #used to display twitter cards
-twitter_handle: '@dirkfabisch'
+twitter_handle: '@hamzaTanjiCherkaoui'
 
 #fill in disqus shortname to use disqus
 #disqus: disqus-shortname
