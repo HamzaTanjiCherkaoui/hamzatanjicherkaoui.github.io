@@ -4,7 +4,7 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "stay hungry, stay foolish "
+title: "stay hungry, stay foolish"
 description: > # this means to ignore newlines until "email:"
    dreams don't work unless you do
 
