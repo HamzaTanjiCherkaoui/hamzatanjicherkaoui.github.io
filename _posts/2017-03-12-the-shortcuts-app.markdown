@@ -28,7 +28,7 @@ the choice was relative to the speeding concept .
 <br><br>
 ![color pallete ](/assets/article_images/2017-03-12-the-shortcuts-app/pallete.png "pallete")
 
-you can Check out the [shorcut App][applink] hope you find it useful , reach me out on [my email][email] for any remarks concerning the app or anything related with web developpement , Peace .
+you can Check out the "[shorcut App][applink]" hope you'll find it usefull , reach me out on [my email][email] for any remarks concerning the app or anything related with web developpement , Peace .
 
 
  [applink]:      http://shortcuts.io
